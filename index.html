@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doações - BR Hunters Life DayZ</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0b0c10, #1f2833);
+      color: #fff;
+      text-align: center;
+      padding: 40px;
+    }
+    .container {
+      background: #1f2833;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+      max-width: 400px;
+      margin: auto;
+    }
+    h1 {
+      color: #66fcf1;
+    }
+    img {
+      width: 250px;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+    .pix-key {
+      background: #0b0c10;
+      padding: 10px;
+      border-radius: 10px;
+      font-size: 16px;
+      display: inline-block;
+      margin-top: 10px;
+      word-wrap: break-word;
+    }
+    button {
+      background: #45a29e;
+      border: none;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+      margin-top: 15px;
+    }
+    button:hover {
+      background: #66fcf1;
+      color: #0b0c10;
+    }
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #c5c6c7;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>💚 Apoie o projeto</h1>
+    <h2>BR Hunters Life DayZ</h2>
+    <p>Envie qualquer valor via Pix escaneando o QR Code abaixo:</p>
+    <img src="qr-pix.png" alt="QR Code Pix">
+    <p>ou usando a chave Pix:</p>
+    <div class="pix-key">whiphaq@gmail.com</div>
+    <button onclick="navigator.clipboard.writeText('whiphaq@gmail.com');alert('Chave Pix copiada!')">Copiar Chave Pix</button>
+  </div>
+  <footer>Obrigado por apoiar o servidor ❤️</footer>
+</body>
+</html>
